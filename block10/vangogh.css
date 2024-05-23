@@ -1,0 +1,50 @@
+.darkSideOfThe {
+  background-color: black;
+  width: 25%;
+  height: 120px;
+  z-index: 10;
+  margin-top: -150px;
+  margin-bottom: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+.moon {
+  background-color: whitesmoke;
+  width: 35%;
+  height: 150px;
+  margin: 10;
+  border-radius: 50%;
+  z-index: 50;
+}
+.background {
+  position: relative;
+  background-color: rgb(6, 6, 76);
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.star {
+  background-color: white;
+  z-index: 100;
+  width: 1%;
+  height: 5px;
+  margin: 10px;
+  position: absolute;
+  top: 10;
+  right: 10em;
+}
+
+.form {
+  text-color: white;
+}
+.flexContainer1 {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: black;
+}
+/* The stars were displaying decently until I messed with some part of the position and the hierarchy of parent-child divs.  Not really sure what happened, gonna ask about it or play around with it a bit more.   */
